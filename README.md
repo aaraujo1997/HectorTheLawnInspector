@@ -1,0 +1,2 @@
+# HectorTheLawnInspector
+Static business page
