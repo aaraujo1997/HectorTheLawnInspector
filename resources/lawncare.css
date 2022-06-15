@@ -18,11 +18,11 @@ body {
  }
  }
  h4 {
-   font-size: 19px;
-   line-height: 1.375em;
-   color: #303030;
-   font-weight: 400;
-   margin-bottom: 30px;
+   font-size: 19px !important;
+   line-height: 1.375em !important;
+   color: #303030 !important;
+   font-weight: 400 !important;
+   margin-bottom: 30px !important;
  }
  .jumbotron {
    background-color: #556B2F !important;
@@ -59,8 +59,8 @@ body {
    font-size: 7vw !important;
  }
  .logo {
-   color: #f4511e;
-   font-size: 200px;
+   color: #556B2F;
+   font-size: 18vw !important;
  }
  .thumbnail {
    padding: 0 0 15px 0;
