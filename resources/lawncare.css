@@ -29,7 +29,7 @@ body {
    color: #fff;
    padding: 100px 25px;
    font-family: Montserrat, sans-serif;
-   background-image: url("/imgs/lawncare_bg.jpg");
+   background-image: url("./imgs/lawncare_bg.jpg");
    background-size: cover;
    margin-top: -5%;
  }
