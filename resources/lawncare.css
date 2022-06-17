@@ -33,6 +33,16 @@ body {
    background-size: cover;
    margin-top: -5%;
  }
+ .careers-jumbo{
+   background-color: #f6f6f6 !important;
+   color: #fff;
+   padding: 100px 25px;
+   font-family: Montserrat, sans-serif;
+   background-image: url("./imgs/lawncare_bg.jpg");
+   background-size: cover;
+   margin-top: -5%;
+   border-bottom: inset !important;
+ }
  .logo-lawn{
    width: 10vw;
    border-radius: 10%;
