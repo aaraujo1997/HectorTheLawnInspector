@@ -58,6 +58,7 @@
             </div>
             <div class="col-sm-8">
               <br>
+            <main>
               <form action="sendEmail.php" method="post">
               <div class="row">
                 <div class="col-sm-4 text-left">
@@ -107,6 +108,7 @@
                   </div>
                 </div>
             </form>
+          </main>
               <br>
             </div>
             </div>

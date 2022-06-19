@@ -18,7 +18,6 @@
         $message = $name . $skillsSection . $contactSection;
 
         mail($mailTo, $subject, $message, $headers);
-        header("Location: careers.html?mailsend");
+        header("Location: careers.php?mailsend");
 
     }
-?>
