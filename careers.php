@@ -1,3 +1,39 @@
+<?php
+    if(isset($_POST['submit'])){
+        $firstName = $_POST['firstName'];
+        $lastName = $_POST['lastName'];
+        $email = $_POST['email'];
+        $phone = $_POST['phone'];
+        $skills = $_POST['skills'];
+        $resume = $_POST['resume'];
+
+        $mailTo = "service@hectorinspector.com";
+        $headers = "From: " . $email;
+
+        $name = $firstName . " " . $lastName . "is contacting you about possible employment. \n";
+        $skillsSection = "Skills & Qualifications: " . $skills . "\n";
+        $contactSection = "They can be contacted at: " . $phone . "or " . $email;
+
+        $subject = "Job Inquiry";
+        $message = $name . $skillsSection . $contactSection;
+
+        $sent =  mail($mailTo, $subject, $message, $headers);
+        
+        if ($sent) {
+          echo '<script type="text/javascript"> alert("Your email
+           was succesfully sent. We will be contacting you shortly.") </script>';
+        }
+        else
+        {
+          echo '<script type="text/javascript"> alert("Submission failed. Try again later.") </script>';
+        }
+        
+
+    }
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -59,7 +95,7 @@
             <div class="col-sm-8">
               <br>
             <main>
-              <form action="sendEmail.php" method="post">
+              <form action="" method="post">
               <div class="row">
                 <div class="col-sm-4 text-left">
                   <label for="firstName"> First Name </label>
