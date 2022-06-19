@@ -58,36 +58,36 @@
             </div>
             <div class="col-sm-8">
               <br>
-              <form>
+              <form action="sendEmail.php" method="post">
               <div class="row">
                 <div class="col-sm-4 text-left">
                   <label for="firstName"> First Name </label>
-                  <input type="text" id="firstName" class="form-control" placeholder="First Name" required>
+                  <input type="text" id="firstName" name="firstName" class="form-control" placeholder="First Name" required>
                 </div>
                 <div class="col-sm-4 text-left">
                   <label for="lastName"> Last Name </label>
-                  <input type="text" id="lastName" class="form-control" placeholder="Last Name" required>
+                  <input type="text" id="lastName" name="lastName" class="form-control" placeholder="Last Name" required>
                 </div>
               </div>
               <br>
                 <div class="row">
                   <div class="col-sm-8 text-left">
                     <label for="email"> Email </label>
-                    <input type="text" id="email" class="form-control" placeholder="Email" required>
+                    <input type="text" id="email" name="email" class="form-control" placeholder="Email" required>
                   </div>
                 </div>
                 <br>
                 <div class="row">
                   <div class="col-sm-8 text-left">
                     <label for="phone"> Mobile Number </label>
-                    <input type="text" id="phone" class="form-control" placeholder="Mobile Number" required>
+                    <input type="text" id="phone" name="phone" class="form-control" placeholder="Mobile Number" required>
                   </div>
                 </div>
                 <br>
                 <div class="row">
                   <div class="col-sm-8 text-left">
                     <label for="expertise">Skills & Expertise</label>
-                    <textarea class="form-control" id="skills" rows="5"
+                    <textarea class="form-control" id="skills" name="skills" rows="5"
                     placeholder="Please provide a description of any skills, experience or qualifications here." required></textarea>
                   </div>
                 </div>
@@ -97,7 +97,7 @@
                     <div class="col-sm-4 text-left">
                       <label for="resumeUpload"> Resume Upload</label>
                       <small>(Optional)</small>
-                      <input type="file" class="form-control-file" id="resumeUpload" style="display: inline !important;">
+                      <input type="file" class="form-control-file" id="resumeUpload" name="resume" style="display: inline !important;">
                     </div>
                 </div>
                 <br>
