@@ -68,6 +68,12 @@ body {
    color: #556B2F;
    font-size: 7vw !important;
  }
+
+ .logo-mini{
+  color: #556B2F;
+   font-size: 4vw !important;
+ }
+
  .logo {
    color: #556B2F;
    font-size: 18vw !important;
